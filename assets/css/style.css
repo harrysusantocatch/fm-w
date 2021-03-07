@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 24px;
 }
 
@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 110vh;
     text-align: center;
   }
   #hero .animated {
@@ -477,6 +477,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .bottom-10{
+    margin-bottom: 10px !important;
   }
   #hero .hero-img img {
     width: 70%;
@@ -1960,7 +1963,7 @@ section {
 }
 
 .features .feature-icons {
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 .features .feature-icons h3 {
@@ -2049,4 +2052,23 @@ section {
   justify-content: center;
   padding-bottom: 25%;
   box-sizing: border-box;
+}
+
+.promo-header {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.promo-desc {
+  font-size: 15px;
+  color: #eceef2;
+  margin-bottom: 20px;
+}
+.bottom-10 {
+  margin-bottom: 10px;
+}
+.discount {
+  text-decoration: line-through;
+  font-size:20px;
+  color:darkgrey;
 }
