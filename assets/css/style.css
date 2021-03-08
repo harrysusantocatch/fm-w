@@ -456,11 +456,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 110vh;
     text-align: center;
   }
-  @media (max-width: 600px) {
-    #hero {
-      height: 140vh;
-      text-align: center;
-    }
   #hero .animated {
     -webkit-animation: none;
     animation: none;
@@ -900,7 +895,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  /* background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center; */
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
