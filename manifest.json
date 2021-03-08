@@ -1,0 +1,21 @@
+{
+    "name": "Promo Paket First Media 2021",
+    "short_name": "Promo Paket First Media 2021",
+    "description": "Promo Pendaftaran Paket First Media 2021 | TV Kabel Internet Wifi | Free Registrasi & Install",
+    "lang": "en-US",
+    "dir": "ltr",
+    "theme_color": "#414f57",
+    "start_url": ".",
+    "background_color": "#000",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "icons": [{
+      "src": "assets/img/logo72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+     }, {
+      "src": "assets/img/logo152.png",
+      "sizes": "512x512",
+      "type": "image/png"
+     }]
+   }

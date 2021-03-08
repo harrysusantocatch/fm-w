@@ -4,14 +4,25 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link rel="canonical" href="https://registerfirstmedia.com"/>
   <meta name="robots" content="index, follow">
 
-  <title>Promo Paket First Media 2021</title>
-  <meta content="Promo Pendaftaran Paket First Media 2021 | TV Kabel Internet Wifi | Free Registrasi & Install. Daftar Online Firstmedia, Use It Now Pay Later. Promo Terbatas Hari Ini Disc 30% 12 Bulan. Layanan High Speed Internet Rumah & TV Kabel Berkualitas HD Indonesia." name="description">
-  <meta content="daftar first media, daftar online first mediaberlangganan first media, langganan first media, promo first media, promo paket first media, paket promo first media" name="keywords">
+  <meta name="theme-color" content="#414f57" />
+  <!-- Mendeklarasikan ikon untuk iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Nama Situs" />
+  <link rel="apple-touch-icon" href="assets/img/logo128.png" />
+  <!-- Mendeklarasikan ikon untuk Windows -->
+  <meta name="msapplication-TileImage" content="assets/img/logo128.png" />
+  <meta name="msapplication-TileColor" content="#000000" />
 
+  <title>Promo Paket First Media 2021</title>
+  <meta content="Promo Pendaftaran Paket First Media 2021 | TV Kabel Internet Wifi | Free Registrasi & Install. Daftar Online First Media, Use It Now Pay Later. Promo Terbatas Hari Ini Disc 30% 12 Bulan. Layanan High Speed Internet Rumah & TV Kabel Berkualitas HD Indonesia. Daftar First Media Sekarang" name="description">
+  <meta content="daftar first media, daftar online first media, berlangganan first media, langganan first media, promo first media, promo paket first media, paket promo first media" name="keywords">
+  
   <!-- Favicons -->
+  <link rel="canonical" href="https://registerfirstmedia.com"/>
+  <link rel="manifest" href="manifest.json">
   <link href="assets/img/logo-2.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -536,6 +547,13 @@
     $(document).ready(function(){
       $("img.lazyload").lazyload();
     });
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
   </script>
 
 </body>
