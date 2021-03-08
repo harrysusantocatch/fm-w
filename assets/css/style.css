@@ -453,9 +453,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 120vh;
+    height: 110vh;
     text-align: center;
   }
+  @media (max-width: 600px) {
+    #hero {
+      height: 140vh;
+      text-align: center;
+    }
   #hero .animated {
     -webkit-animation: none;
     animation: none;
